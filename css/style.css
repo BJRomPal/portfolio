@@ -1,0 +1,205 @@
+body {
+	background-color: #D9D3D8;
+}
+
+header {
+	background-color: steelblue;
+	padding: 1.4em 1.2em;
+}
+
+.container h1 {
+	padding-left: 1.4em;
+}
+
+.container h1 a{
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #D9D3D8;
+	text-decoration: none;
+}
+
+.container h1 img {
+	height: 55px;
+	width: 80px;
+	padding-right: 5px;
+	mix-blend-mode: multiply;
+}
+
+.headerPrincipal-nav-link {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #D9D3D8;
+	text-decoration: none;
+    padding: 0 0.8em;
+	border-right: 1.5px solid #625F62;
+}
+
+.headerPrincipal-nav-link-final{
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #D9D3D8;
+	text-decoration: none;
+    padding: 0 0.8em;
+}
+
+.headerPrincipal-nav a:hover {
+	color: #292424;
+}
+
+.datos-redes {
+	width: 35%;
+}
+
+.presentacion {
+	font-size: 30px;
+	font-family: sans-serif;
+	color: darkslategray;
+	margin-bottom: 20px;
+}
+
+.icon {
+	font-size: 30px;	
+}
+
+.fa-github {
+	background: grey;
+	color: white;
+}
+
+.fa-linkedin {
+	background: grey;
+	color: white;
+}
+
+.fa-twitter {
+	background: grey;
+	color: white;
+}
+
+.fa-file {
+	background: grey;
+	color: white;
+}
+
+.fa {
+	font-size: 200px;
+	text-decoration: none;
+	padding: 5px;
+	margin: 5px 10px;
+}
+
+.fa-github:hover {
+	background: #161b22;
+}
+
+.fa-linkedin:hover {
+	background: #007bb5;
+}
+
+.fa-twitter:hover {
+	background: #1DA1F2;
+}
+
+.fa-file:hover {
+	background: rgb(179, 22, 22);
+}
+
+.foto_personal {
+	height: 20em;
+    border-radius: 50%;
+}
+
+.foto-cpu {
+	height: 20em;
+	border-radius: 30px;
+}
+
+.subtitulos {
+	font-size: 1.8em;
+    font-weight: bold;
+    font-family: tahoma;
+    color: dimgrey;
+    padding-left: 1.1em;	
+    margin-bottom: 1.2em;
+}
+
+.mis-datos {
+	margin: 1.5em 1.2em;
+    font-size: 1.1em ;
+    width: 90%;
+	text-align: justify;
+}
+
+.habilidades {
+	padding-top: 1.2em;
+}
+
+.lenguajes {
+    width: 90%;
+	text-align: center;
+    margin: 0 auto;
+}
+
+.lenguajes li{
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+	height: auto;
+    vertical-align: top;
+	margin: 0 3.5%;
+	margin-bottom: 1.2em;
+    padding: 1.4em 1.2em;
+	background-color: #F4F5F7;
+	border-width: 4px;
+  	border-style: solid;
+  	border-image: linear-gradient(to bottom, #BBDEFB, #F4F5F7) 1;
+}
+
+.lenguajes li h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.8em;
+	color: #111651;
+}
+
+.lenguajes li img {
+	border: 1px solid #BBDEFB;
+	width: 5em;
+}
+
+.hobbies {
+	padding-top: 20px;
+	background: #BBDEFB;
+}
+
+.lista-hobbies {
+	display: inline-block;
+}
+
+.foto {
+	width: 35%;
+	height: 35%;
+	border-radius: 20px;
+}
+
+.formacion {
+	padding-top: 30px;
+}
+
+.escuela {
+	width: 65%;
+	padding-bottom: 16px;
+	border-radius: 15px;
+}
+
+.escuela-titulo {
+	font-size: 14px;
+	color: #111651;
+	font-family: Verdana;
+}
+
+.escuela-titulo p {
+	font-weight: bold;
+}
+
