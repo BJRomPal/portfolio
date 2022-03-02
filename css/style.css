@@ -7,6 +7,12 @@ header {
 	padding: 1.4em 1.2em;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .container h1 {
 	padding-left: 1.4em;
 }
@@ -45,6 +51,14 @@ header {
 
 .headerPrincipal-nav a:hover {
 	color: #292424;
+}
+
+.quien-soy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #D9D3D8;
 }
 
 .datos-redes {
@@ -110,6 +124,13 @@ header {
     border-radius: 50%;
 }
 
+.acerca-de-mi {
+    display: flex;
+	flex-direction: row-reverse;
+    padding: 30px;
+    background-color: #BBDEFB;
+}
+
 .foto-cpu {
 	height: 20em;
 	border-radius: 30px;
@@ -173,8 +194,10 @@ header {
 	background: #BBDEFB;
 }
 
-.lista-hobbies {
-	display: inline-block;
+.fotos-hobbies {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
 }
 
 .foto {
@@ -185,6 +208,12 @@ header {
 
 .formacion {
 	padding-top: 30px;
+}
+
+.lista-estudios {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .escuela {
@@ -203,3 +232,71 @@ header {
 	font-weight: bold;
 }
 
+
+@media screen and (max-width: 960px) {
+	.headerPrincipal-nav {
+		display: none;
+	}
+
+	.quien-soy {
+		display: flex;
+		justify-content: center;
+    	padding: 10px;
+    	background-color: #D9D3D8;
+	}
+
+	.imagen-personal {
+		margin: 0 0 50px 20px;
+	}
+
+	.presentacion {
+		font-size: 23px;
+		font-family: sans-serif;
+		color: darkslategray;
+		margin-bottom: 20px;
+	}
+	.redes-sociales {
+		display: flex;
+	}
+
+	.icon {
+		font-size: 20px;
+	}
+
+	.foto_personal {
+		height: 12em;
+		border-radius: 50%;
+	}
+
+	.foto-cpu {
+		display: none;
+	}
+
+	.acerca-de-mi {
+        padding: 30px;
+        background-color: #BBDEFB;
+    }
+
+	.lenguajes li h2 {
+		font-size: 0.9em;
+	}
+
+	.fotos-hobbies {
+		display: flex;
+		padding: 0 20px 20px 20px
+	}
+
+	.lista-estudios {
+		display: block;
+		text-align: center;
+	}
+
+	.escuela {
+		width: 55%;
+	}
+
+	.escuela-titulo {
+    font-size: 20px;
+	padding-bottom: 20px;
+	}
+}
