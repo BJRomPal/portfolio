@@ -72,9 +72,12 @@ header {
 	margin-bottom: 20px;
 }
 
-.icon {
-	font-size: 30px;	
-}
+.icon .fa-sm {
+	font-size: 1.575em;
+    line-height: 1em;
+    vertical-align: .05357em;
+}	
+
 
 .fa-github {
 	background: grey;
@@ -165,7 +168,7 @@ header {
 .lenguajes li{
     display: inline-block;
     text-align: center;
-    width: 21%;
+    width: 14%;
 	height: auto;
     vertical-align: top;
 	margin: 0 3.5%;
@@ -201,8 +204,8 @@ header {
 }
 
 .foto {
-	width: 35%;
-	height: 35%;
+	width: 20%;
+	height: 20%;
 	border-radius: 20px;
 }
 
@@ -277,13 +280,30 @@ header {
         background-color: #BBDEFB;
     }
 
+	.lenguajes li {
+		width: 21%;
+	}
+
 	.lenguajes li h2 {
 		font-size: 0.9em;
 	}
 
+	.lenguajes li img {
+		border: 1px solid #BBDEFB;
+		width: 4em;
+	}
+
 	.fotos-hobbies {
-		display: flex;
-		padding: 0 20px 20px 20px
+		display: block;
+		text-align: center;
+		padding: 0 20px 10px 20px;
+	}
+
+	.foto {
+		width: 80%;
+		margin-bottom: 20px;
+		border-radius: 0;
+		box-shadow: 0.8em 0.8em 1.8em 0.4em #000000;
 	}
 
 	.lista-estudios {
