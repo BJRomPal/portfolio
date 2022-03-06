@@ -79,22 +79,7 @@ header {
 }	
 
 
-.fa-github {
-	background: grey;
-	color: white;
-}
-
-.fa-linkedin {
-	background: grey;
-	color: white;
-}
-
-.fa-twitter {
-	background: grey;
-	color: white;
-}
-
-.fa-file {
+.fa-github, .fa-linkedin, .fa-twitter, .fa-file {
 	background: grey;
 	color: white;
 }
@@ -152,7 +137,10 @@ header {
 	margin: 1.5em 1.2em;
     font-size: 1.1em ;
     width: 90%;
-	text-align: justify;
+	text-align: left;
+	color: #111651;
+	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .habilidades {
@@ -210,7 +198,7 @@ header {
 }
 
 .formacion {
-	padding-top: 30px;
+	padding: 30px 0 30px 0;
 }
 
 .lista-estudios {
@@ -231,10 +219,108 @@ header {
 	font-family: Verdana;
 }
 
-.escuela-titulo p {
+.descripcion {
+	color: #111651;
 	font-weight: bold;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.proyectos {
+    padding: 30px 30px;
+    background-color: #BBDEFB;
+}
+
+.gif-container {
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.container-proyectos {
+	width: 40%;	
+}
+
+.gif-image {
+	width: 90%;
+}
+
+.titulo {
+	font-size: 18px;
+	color: #111651;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.botones {
+	font-size: 18px;
+	color: #F3F3F3;
+	background-color: #191d2b;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	padding: 0.2em 0.8em;
+	transition: 1s all;
+    cursor: pointer;
+
+}
+
+.botones:hover {
+	color: #191d2b;
+	background-color: #F3F3F3;
+}
+
+.contacto {
+	padding: 30px 0;
+}
+
+form{
+    margin: 40px 0;
+	padding: 0 30px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label, form legend {
+    display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+	border: none;
+}
+
+.enviar {
+    width: 20%;
+    padding: 1.15em 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background: steelblue;
+    border: none;
+    border-radius: 0.5em;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #111651;
+}
 
 @media screen and (max-width: 960px) {
 	.headerPrincipal-nav {
@@ -276,7 +362,7 @@ header {
 	}
 
 	.acerca-de-mi {
-        padding: 30px;
+        padding: 30px 0;
         background-color: #BBDEFB;
     }
 
@@ -285,7 +371,7 @@ header {
 	}
 
 	.lenguajes li h2 {
-		font-size: 0.9em;
+		font-size: 0.88em;
 	}
 
 	.lenguajes li img {
@@ -296,12 +382,12 @@ header {
 	.fotos-hobbies {
 		display: block;
 		text-align: center;
-		padding: 0 20px 10px 20px;
+		padding: 0 20px 20px 20px;
 	}
 
 	.foto {
 		width: 80%;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 		border-radius: 0;
 		box-shadow: 0.8em 0.8em 1.8em 0.4em #000000;
 	}
@@ -318,5 +404,31 @@ header {
 	.escuela-titulo {
     font-size: 20px;
 	padding-bottom: 20px;
+	}
+	.proyectos {
+		padding: 30px 0;
+		background-color: #BBDEFB;
+	}
+	
+	.gif-container {
+		display: block;
+	}
+	
+	.container-proyectos {
+		width: 100%;	
+	}
+
+	.container-proyectos h2, .container-proyectos p {
+		text-align: left;
+		padding: 0 10px 0 10px;
+	}
+	
+	.gif-image {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.input-padron, .enviar {
+		width: 80%;
 	}
 }

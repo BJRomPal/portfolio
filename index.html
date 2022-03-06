@@ -7,14 +7,14 @@
         <title>Porfolio</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3bdd196292.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="headerPorfolio">
             <div class="container">
                 <h1 class="headerPrincipal-developer">
-                    <a href="#"><img src="logo/logo.png">Porfolio Personal</a>
+                    <a href="#"><img src="logo/logo.png">Portfolio Personal</a>
                 </h1>
     
                 <nav class="headerPrincipal-nav">
@@ -28,7 +28,7 @@
             </div>    
         </header>
         <main>
-            <div class="quien-soy">
+            <section class="quien-soy">
                 <div class="datos-redes">
                     <h1 class="presentacion">
                         Hola, me llamo Mariano Miró. Diseño páginas Web y hago Ciencia de datos
@@ -43,9 +43,9 @@
                 <div class ="imagen-personal">
                     <img class="foto_personal" src="imagenes/foto_personal.jpg">
                 </div>
-            </div>
+            </section>
             <a name="sobre-mi"></a>
-            <div class="acerca-de-mi">
+            <section class="acerca-de-mi">
                 <div class="datos-personales">
                     <h1 class="subtitulos">Acerca de mi</h1>
                     <p class="mis-datos">Tengo 44 años. Soy Abogado y Escribano desde hace 20 años, y desde hace 2 años estoy estudiando programación.
@@ -61,9 +61,9 @@
                     <img class="foto-cpu" src="imagenes/computadoras.jpg">
                 </div>
                 
-            </div>
+            </section>
             <a name="skills"></a>
-            <div class="habilidades">
+            <section class="habilidades">
                 <h1 class="subtitulos">Habilidades</h1>
                 <ul class="lenguajes">
                     <li>
@@ -91,18 +91,18 @@
                         <img class="iconos-lenguajes" src="icons/JS icon.png">
                     </li>
                 </ul>
-            </div>
+            </section>
             <a name="pasatiempos"></a>
-            <div class="hobbies">
+            <section class="hobbies">
                 <h1 class="subtitulos">Hobbies</h1>
                 <div class="fotos-hobbies">
                     <img class="foto" src="imagenes/futbol.jpg">
                     <img class="foto" src="imagenes/leyendo.png">
                     <img class="foto" src="imagenes/dibujo.jpg">
                 </div>
-            </div>
+            </section>
             <a name="estudios"></a>
-            <div class="formacion">
+            <section class="formacion">
                 <h1 class="subtitulos">Formación</h1>
                 <ul class="lista-estudios">
                     <li class="escuela-titulo">
@@ -124,7 +124,83 @@
                         <p class="descripcion">En formación</p>
                     </li>
                 </ul>
-            </div>
+            </section>
+            <a name="proyects"></a>
+            <section class="proyectos">
+                <h1 class="subtitulos">Proyectos</h1>
+                <h2 class="titulo">Análisis con Python de las PASO 2021 en la Provincia del Chaco, Argentina</h2>
+                <br> 
+                <div class="gif-container">
+                    <div class="container-proyectos">
+                        <img class="gif-image" src="imagenes/Python_cienciaDatos.jpg">
+                    </div>
+                    <div class="container-proyectos">
+                        <p class="descripcion">Se realizó una carga de datos obtenidos del organismo electoral argentino, prcesándose con Pandas y las visualizaciones fueron efectuadas en Altair que es una librería interactiva que sirve como wrapper de la librería Vega de Java Script.</p>
+                    </div>
+                </div>
+                <br>
+                <h2 class="titulo">Análisis de Churn Rate Bancario</h2>
+                <br>
+                <div class="gif-container">
+                    <div class="container-proyectos">
+                        <img class="gif-image" src="imagenes/R_ciencia.jpg">
+                    </div>
+                    <div class="container-proyectos">
+                        <p class="descripcion">Se realizó un modelo de prediccion de Churn Rate Bancario en R utilizando XGBoost con una optimización bayesiana de los hiperparámetros.</p>
+                    </div>
+                </div>
+                <br>
+                <h2 class="titulo">Encriptador de Texto</h2>
+                <br>       
+                <div class="gif-container">
+                    <div class="container-proyectos">
+                        <img class="gif-image" src="imagenes/CodigoSecreto.jpg">
+                    </div>
+                    <div class="container-proyectos">
+                        <p class="descripcion">Programa de encriptación de texto en Java Script</p>
+                        <br>
+                        <div class="buttons">
+                            <a class="botones" href="https://bjrompal.github.io/challengeonelogicalatam/" target="_blank">Probar</a>
+                            <a class="botones" href="https://github.com/BJRomPal/challengeonelogicalatam" target="_blank">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h2 class="titulo">Juego del Ahorcado</h2>
+                <br>       
+                <div class="gif-container">
+                    <div class="container-proyectos">
+                        <img class="gif-image" src="imagenes/ahorcado.jpg">
+                    </div>
+                    <div class="container-proyectos">
+                        <p class="descripcion">Juego del Ahorcado efectuada en Java Script</p>
+                        <br>
+                        <div class="buttons">
+                            <a class="botones" href="https://bjrompal.github.io/aluraHangman/" target="_blank">Jugar</a>
+                            <a class="botones" href="https://github.com/BJRomPal/aluraHangman" target="_blank">Repositorio</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a name="contacto"></a>
+            <section class="contacto">
+                <h1 class="subtitulos">Contacto</h1>
+                <form>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+    
+                    <label for="correoelectronico">Correo Electrónico</label>
+                    <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+    
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX)XXXX-XXXX">
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+    
+                    <input type="submit" value="Enviar formulario" class="enviar">
+                </form>
+            </section>
         </main>
     </body>
 
