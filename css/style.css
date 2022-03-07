@@ -20,6 +20,9 @@ header {
     justify-content: space-around;
 }
 
+.container a {
+	text-decoration: none;
+}
 
 .container h1 {
 	padding-left: 1.4em;
@@ -27,7 +30,8 @@ header {
 	font-weight: bold;
 	font-family: Calibri;
 	color: #D9D3D8;
-	text-decoration: none;
+	vertical-align: middle;
+	
 }
 
 .container h1 img {
@@ -35,6 +39,7 @@ header {
 	width: 80px;
 	padding-right: 5px;
 	mix-blend-mode: multiply;
+	vertical-align: middle;
 }
 
 .headerPrincipal-nav-link {
