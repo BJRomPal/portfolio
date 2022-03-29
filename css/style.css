@@ -312,8 +312,14 @@ form label, form legend {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 30%;
-	border: none;
+	border: transparent;
 }
+
+.input-padron:focus{
+	outline: none;
+	border-bottom: solid 2px steelblue;
+}
+
 
 .enviar {
     width: 20%;
